@@ -1,5 +1,8 @@
 import re
 import pickle
+nltk.download('wordnet')
+nltk.download('words')
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
