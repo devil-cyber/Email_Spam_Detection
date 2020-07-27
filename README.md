@@ -5,6 +5,9 @@
 * Create virtual env. inside Pycharm or visual studio
 * fire this command pip install -r requirements.txt
 * if above command run prefectly then run your app.py file
+### Note to run this app locally make a small change in app.py
+* remove this code app.run(host="0.0.0.0", port=port) with app.run(debug=True)
+* remove this code port = int(os.getenv('PORT')) this is only for deployment server
 ## Algorithm Used
 * To clean the text this code has been used
 '''
